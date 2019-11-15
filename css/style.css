@@ -266,3 +266,101 @@ margin-bottom: 80px;
 .terms a {
     color: #a8aabc;
 }
+
+/*Footer Section*/
+footer {
+    background: url(../images/footer-bg.png);
+    background-size: cover;
+    background-position: right;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+footer h4 {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+}
+footer .text-start {
+    position: relative;
+}
+footer .footer-content {
+    line-height: 0;
+}
+footer img {
+    opacity: 0.8;
+    position: absolute;
+    top: -9px;
+    left: 73px;
+}
+footer h4 .text-ex {
+    position: absolute;
+    top: -36px;
+    left: 61px;
+    color: #fff;
+}
+footer ul {
+    padding-left: 0;
+}
+footer .ul-margin {
+    margin-top: 6px;
+}
+footer ul li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+.form-group .fa-paper-plane {
+    margin-left:  -34px;
+    background: #FF8A8A;
+    padding: 7px 15px;
+    position: absolute;
+    top: 42px;
+    right: 120px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+footer .email {
+    border-radius: 5px;
+    border: 1px solid #FF8A8A;
+    box-shadow: 0px 0px 5px #ff8a8a;
+    padding: 2px;
+    width: 70%;
+}
+.fa-dribbble {
+    margin-top: 20px;
+    background: #FF8A8A;
+    padding: 6px 7.2px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.fa-facebook {
+    margin-top: 20px;
+    background: #FF8A8A;
+    padding: 6px 9.5px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.fa-google-plus {
+    margin-top: 20px;
+    background: #FF8A8A;
+    padding: 6px 3.7px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.fa-twitter {
+    margin-top: 20px;
+    background: #FF8A8A;
+    padding: 6px 6.5px;
+    color: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.fa:hover {
+    transform: rotate(360deg);
+}
